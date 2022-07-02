@@ -5,14 +5,19 @@
 */
 int main(void)
 {
-int z;
-for (z = 48; z <= 57; z++)
+char c = 'a';
+int num;
+for (num = 0; num < 16; num++)
 {
-putchar(z);
+if (num < 10)
+{
+putchar(num + '0');
 }
-for (z = 97; z <= 102; z++)
+else
 {
-putchar(z)
+putchar(c);
+c++;
+}
 }
 putchar('\n');
 return (0);
