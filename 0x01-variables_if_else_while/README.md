@@ -1,2 +1,2 @@
 #!/bin/bash
-Hexadecimal md
+Patience, persistence and perspiration make an unbeatable combination for success
