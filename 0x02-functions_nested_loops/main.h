@@ -1,4 +1,4 @@
 int _putchar(char c);
 /**
-*print_alphabet-print lower case alphabet
+*print_alphabet-print lowercase alphabet
 */
