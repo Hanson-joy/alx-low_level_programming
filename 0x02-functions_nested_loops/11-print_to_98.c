@@ -1,56 +1,39 @@
 #include "main.h"
+
 /**
-*print - print variable recursively using _putchar
-*@n: variable to print
-*/
-void print(int n);
-/**
-*print_to_98 - print all natural numbers from var to 98
-*@var: the starting limit
-*/
-void print_to_98(int var)
+ * print_to_98 - prints all natural numbers from n to 98
+ * @n: number input
+ * return: Always 0 (Success)
+ */
+void print_to_98(int n)
 {
-int stopLimit = 98;
-if (var > stopLimit)
-{
-int ii;
-for (ii = var; ii >= stopLimit; ii--)
-{
-print(ii);
-if (ii != stopLimit)
-{
-_putchar(',');
-_Putchar(' ');
-}
-}
-}
-else
-{
-int jj;
-for (jj = var; jj <= stopLimit; jj++)
-{
-print(jj);
-if (jj != stopLimit)
-{
-_putchar(',');
-_putchar(' ');
-}
-}
-}
-_putchar('\n');
-}
-/**
-*print - to print
-*@n: var
-*/
-void print(int n)
-{
-if (n < 0)
-{
-_putchar('-');
-n = -n;
-}
-if (n / 10)
-print(n / 10);
-_putchar(n % 10 + '0');
+	if (n < 98)
+	{
+		while (n <= 98)
+		{
+			printf("%d", n);
+			if (n != 98)
+			{
+				printf(", ");
+			}
+			n++;
+		}
+	}
+	else if (n > 98)
+	{
+		while (n >= 98)
+		{
+			printf("%d", n);
+			if (n != 98)
+			{
+				printf(", ");
+			}
+			n--;
+		}
+	}
+	else
+	{
+		printf("98");
+	}
+	printf("\n");
 }
