@@ -1,2 +1,1 @@
-#!/bin/bash
-THIS IS A README FOR ALL TASK ON FUNCTIONS_NESTED_LOOPS PROJECT
+readme for functions,nested,loops on C

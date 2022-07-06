@@ -1,24 +1,6 @@
-int _putchar(char c);
+int print_sign(int n);
 /**
-*print_alphabet-print lowercase alphabet
-*/
-void print_alphabet(void);
-/**
-*print_alphabet_x10-print lowercase alphabet ten times
-*/
-void print_alphabet_x10(void);
-/**
-*_islower - checks for lowercase
-*/
-int _islower(int c);
-/**
-*_isalpha-checks for alphabet character
-*@c: character to check
-* Return: 1 if lower or uppercase, 0 if not alphabet
-*/
-int _isalpha(int c)
-/**
-*print_sign - print sign of number
-*@n: number to check
-*Return: 1 if greater than 0, 0 if 0, -1 if less than 0
+*_isalpha - check for lower case letter
+*@c : character to check
+*Return: 0 or 1
 */
