@@ -24,7 +24,7 @@ _putchar('0' + (mul % 10));
 }
 if (jj < 9)
 {
-_putchar(',');	
+_putchar(',');
 _putchar(' ');
 }
 }
